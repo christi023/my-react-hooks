@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+//import HookCounter from './Components/State/HookCounter';
 import './App.css';
+//import App1 from './Components/UseContext/App1';
+//import IntervalTimer from './Components/UseEffect/IntervalTimer';
+//import HookArray from './Components/State/HookArray';
+import DataFetching from './Components/UseEffect/DataFetching';
+//import CounterThree from './Components/useReducer/CounterThree';
+import AppTwo from './Components/useReducerContext.jsx/AppTwo';
+//import CounterOne from './Components/useReducer/CounterOne';
+//import CounterTwo from './Components/useReducer/CounterTwo';
+//import HookCounter2 from './Components/State/HookCounter2';
+//import HookObject from './Components/State/HookObject';
+//import HookMouse from './Components/UseEffect/HookMouse';
+//import MouseContainer from './Components/UseEffect/MouseContainer';
+//import UseEffectHook1 from './Components/UseEffect/UseEffectHook1';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataFetching />
+      <br />
+      <AppTwo />
     </div>
   );
 }
-
-export default App;
