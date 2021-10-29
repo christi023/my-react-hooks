@@ -7,3 +7,5 @@
 ## useContext
 
 ## useReducer
+
+## useReducer with useContext
