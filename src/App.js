@@ -3,9 +3,11 @@ import './App.css';
 //import App1 from './Components/UseContext/App1';
 //import IntervalTimer from './Components/UseEffect/IntervalTimer';
 //import HookArray from './Components/State/HookArray';
-import DataFetching from './Components/UseEffect/DataFetching';
+//import DataFetching from './Components/UseEffect/DataFetching';
 //import CounterThree from './Components/useReducer/CounterThree';
 import AppTwo from './Components/useReducerContext.jsx/AppTwo';
+import DataFetchingOne from './Components/useReducerContext.jsx/DataFetchingOne';
+import DataFetchingTwo from './Components/useReducerContext.jsx/DataFetchingTwo';
 //import CounterOne from './Components/useReducer/CounterOne';
 //import CounterTwo from './Components/useReducer/CounterTwo';
 //import HookCounter2 from './Components/State/HookCounter2';
@@ -17,9 +19,12 @@ import AppTwo from './Components/useReducerContext.jsx/AppTwo';
 export default function App() {
   return (
     <div className="App">
-      <DataFetching />
       <br />
       <AppTwo />
+      <br />
+      <DataFetchingOne />
+      <br />
+      <DataFetchingTwo />
     </div>
   );
 }
